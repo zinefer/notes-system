@@ -17,7 +17,7 @@ function commit {
     # git add projects
     # git add work
     git commit -m "Add $YUMAN notes"
-    git push origin master
+    git push origin main
 }
 
 # Create today's note pre-filled with incomplete todos from the most recent day, then open it
